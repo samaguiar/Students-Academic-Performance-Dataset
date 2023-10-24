@@ -1,3 +1,2 @@
-#ignore virtual envirnoment
-.env
-
+# Ignore virtual envirnoments
+env/
