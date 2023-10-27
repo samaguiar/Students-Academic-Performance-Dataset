@@ -19,6 +19,147 @@ After storing the data frame as a variable, I began to explore and clean the dat
 ```
 df.head()
 ```
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>gender</th>
+      <th>NationalITy</th>
+      <th>PlaceofBirth</th>
+      <th>StageID</th>
+      <th>GradeID</th>
+      <th>SectionID</th>
+      <th>Topic</th>
+      <th>Semester</th>
+      <th>Relation</th>
+      <th>raisedhands</th>
+      <th>VisITedResources</th>
+      <th>AnnouncementsView</th>
+      <th>Discussion</th>
+      <th>ParentAnsweringSurvey</th>
+      <th>ParentschoolSatisfaction</th>
+      <th>StudentAbsenceDays</th>
+      <th>Class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>M</td>
+      <td>KW</td>
+      <td>KuwaIT</td>
+      <td>lowerlevel</td>
+      <td>G-04</td>
+      <td>A</td>
+      <td>IT</td>
+      <td>F</td>
+      <td>Father</td>
+      <td>15</td>
+      <td>16</td>
+      <td>2</td>
+      <td>20</td>
+      <td>Yes</td>
+      <td>Good</td>
+      <td>Under-7</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>M</td>
+      <td>KW</td>
+      <td>KuwaIT</td>
+      <td>lowerlevel</td>
+      <td>G-04</td>
+      <td>A</td>
+      <td>IT</td>
+      <td>F</td>
+      <td>Father</td>
+      <td>20</td>
+      <td>20</td>
+      <td>3</td>
+      <td>25</td>
+      <td>Yes</td>
+      <td>Good</td>
+      <td>Under-7</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>M</td>
+      <td>KW</td>
+      <td>KuwaIT</td>
+      <td>lowerlevel</td>
+      <td>G-04</td>
+      <td>A</td>
+      <td>IT</td>
+      <td>F</td>
+      <td>Father</td>
+      <td>10</td>
+      <td>7</td>
+      <td>0</td>
+      <td>30</td>
+      <td>No</td>
+      <td>Bad</td>
+      <td>Above-7</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>M</td>
+      <td>KW</td>
+      <td>KuwaIT</td>
+      <td>lowerlevel</td>
+      <td>G-04</td>
+      <td>A</td>
+      <td>IT</td>
+      <td>F</td>
+      <td>Father</td>
+      <td>30</td>
+      <td>25</td>
+      <td>5</td>
+      <td>35</td>
+      <td>No</td>
+      <td>Bad</td>
+      <td>Above-7</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>M</td>
+      <td>KW</td>
+      <td>KuwaIT</td>
+      <td>lowerlevel</td>
+      <td>G-04</td>
+      <td>A</td>
+      <td>IT</td>
+      <td>F</td>
+      <td>Father</td>
+      <td>40</td>
+      <td>50</td>
+      <td>12</td>
+      <td>50</td>
+      <td>No</td>
+      <td>Bad</td>
+      <td>Above-7</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 The table above is the partial output of df.head(). I investigated the attributes GradeID, Topic, and raisedhands. 
 Next, I wanted to ensure that I did not have any missing values in my data set that could skew results. I used the following code:
 ```
