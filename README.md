@@ -148,9 +148,11 @@ df.head()
 </table>
 </div>
 Next, I wanted to ensure that I did not have any missing values in my data set that could skew results. I used the following code:
+
 ```
 df.isnull().value_counts()
 ```
+
 ```
 gender  NationalITy  PlaceofBirth  StageID  GradeID  SectionID  Topic 
 False   False        False         False    False    False      False  
